@@ -1,0 +1,70 @@
+/*
+Theme Name: Vegga Consultoria
+Theme URI: https://www.veggaconsultoria.com.br
+Author: a³ ideias na web
+Author URI: https://wordpress.org/
+Description: Projeto de site/portal de produtos e serviços da vegga consultoria especializada em engenharia.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Vegga Consultoria
+Tags: Consultoria, engenharia civil, engenharia legal 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body  { 
+	font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.navbar-default {
+	background-color: #098a8a;
+	border-radius: 0;
+}
+
+header#home {
+    padding: 100px 30px;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/banner/banner-header.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6{
+	  font-family: "Lato", sans-serif;
+	  text-align: center; 
+	  font-weight: bold; 
+	  color: #ff9339;
+}
+
+
+section#destaques {
+    padding: 0;
+    background-image: url(../img/banner/slider.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section#destaques .bg-destaques {
+    padding: 100px 0 50px 0;
+    background-color: rgba(26,87,106,.3);
+}
+
+section#destaques .thumbnail img {
+	width: 128px;
+	height: 128px;
+}
+
+footer {
+	background-color: #098a8a;
+}

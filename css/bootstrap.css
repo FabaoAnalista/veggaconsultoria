@@ -7693,3 +7693,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', end
 
 
 }
+
+/* Artigo */
+
+section#intro-artigo {
+  margin-top: 50px;
+  background: #f5f6f6;
+}
+
+section#intro-artigo p {
+  margin: 20px 0;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+section#intro-artigo .img-user {
+  width: 128px;
+  height: 128px;
+}

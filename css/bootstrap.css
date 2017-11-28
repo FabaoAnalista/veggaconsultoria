@@ -7721,7 +7721,12 @@ section#intro-artigo ol li {
   padding-bottom: 10px;
 }
 
+section#intro-artigo .media-body {
+  padding-left: 15px;
+}
+
 section#intro-artigo .img-user {
   width: 128px;
   height: 128px;
+  border: 3px solid #ddd;
 }

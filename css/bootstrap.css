@@ -7699,6 +7699,9 @@ section#intro-artigo {
   background: #f5f6f6;
   background: url(../img/patterns/cubes.png) center fixed repeat;
 }
+section#intro-artigo h1 {
+  font-size: 25px;
+}
 
 section#intro-artigo h1, section#intro-artigo h2, section#intro-artigo h3 {
   text-align: justify;

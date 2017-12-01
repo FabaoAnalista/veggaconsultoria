@@ -6947,6 +6947,7 @@ section#diferencial p {
 }
 
 section#cases-sucesso {
+  padding: 20px 0;
   text-align: justify;
   background-color: #f7f7f7;
   background: url(../img/patterns/cubes.png) center repeat;
@@ -7685,8 +7686,12 @@ background: -webkit-radial-gradient(center, ellipse cover,  #f5f6f6 0%,#f4f5fc 2
 background: radial-gradient(ellipse at center,  #f5f6f6 0%,#f4f5fc 22%,#f2f2f9 49%,#f2f2f9 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
+}
 
-
+section#box-artigo {
+  margin-top: 10px;
+  background: #f5f6f6;
+  background: url(../img/patterns/cubes.png) center fixed repeat;
 }
 
 /* Artigo */

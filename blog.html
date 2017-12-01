@@ -116,11 +116,11 @@
               <!-- Controls -->
               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
+                  <span class="sr-only">Anterior</span>
               </a>
               <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
+                  <span class="sr-only">Próximo</span>
               </a>  
 
           </div>
@@ -135,10 +135,11 @@
                         <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                     </span>
                 <h3>Cadastre seu e-mail e receba gratuitamente conteúdos exclusivos!</h3>
+
                 <div class="col-md-8 col-md-offset-2">
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" name = "sentMessage" id= "contactForm" action = "enviarEmailBlog.php" method="post">
                         <div class="input-group">
-                          <input type="email" class="form-control input-lg" id="exampleInputEmail2" placeholder="Email"required>
+                          <input type="email" name="email" class="form-control input-lg" id="email" placeholder="Email"required>
                           <span class="input-group-btn">
                             <button type="submit" class="btn btn-orange btn-lg white">Quero Receber</button>
                           </span>
@@ -146,11 +147,11 @@
                     </form>
                 </div>
             </div>
-            <div class="row">
+            <div>
                 <p>Não se preocupe, respeitamos sua privacidade. Você pode se descadastrar a qualquer momento.</p>
             </div>
         </div>
-    </section>        
+    </section>    
 
     <section id="cases-sucesso">
         <div class="container text-center">
